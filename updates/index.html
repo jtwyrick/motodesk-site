@@ -1,0 +1,130 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Updates - TorqueBench</title>
+<meta name="description" content="What has changed in TorqueBench, newest first. Shop-visible changes only.">
+<link rel="canonical" href="https://gettorquebench.com/updates/">
+<meta name="theme-color" content="#f4efdf">
+<link rel="icon" type="image/svg+xml" href="/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=IBM+Plex+Mono:wght@400;500;600;700&display=swap">
+<style>
+:root{--paper:#f4efdf;--card:#fffdf5;--ink:#111;--muted:#5f5a4e;--accent:#ef5b24;--accent-dark:#b84215;--shadow:#aaa28f;--line:#111}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);font-family:'IBM Plex Mono',ui-monospace,SFMono-Regular,Menlo,monospace;font-size:16px;line-height:1.6}
+h1,h2,h3{font-family:'Barlow Condensed',Arial,sans-serif;letter-spacing:.04em;line-height:1.05;margin:0}
+a{color:var(--accent-dark)}
+a:focus-visible{outline:3px solid var(--accent-dark);outline-offset:2px}
+.skip{position:absolute;left:-9999px;top:0;background:var(--ink);color:#fff;padding:10px 16px;z-index:50}
+.skip:focus{left:0}
+.wrap{max-width:1080px;margin:0 auto;padding:0 20px}
+.k{font-size:11px;font-weight:600;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+header.site{border-bottom:3px solid var(--line);background:var(--card)}
+header.site .wrap{display:flex;flex-wrap:wrap;align-items:center;gap:14px;padding-top:14px;padding-bottom:14px}
+.wordmark{font-family:'Barlow Condensed',Arial,sans-serif;font-size:30px;font-weight:700;letter-spacing:.06em;text-decoration:none;color:var(--ink)}
+.wordmark span{color:var(--accent)}
+nav.main{margin-left:auto;display:flex;flex-wrap:wrap;gap:18px;align-items:center}
+nav.main a{color:var(--ink);text-decoration:none;font-size:13px;font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+nav.main a:hover{color:var(--accent-dark);text-decoration:underline}
+.btn{display:inline-block;border:2px solid var(--line);padding:11px 18px;font:700 14px 'IBM Plex Mono',monospace;text-decoration:none;box-shadow:4px 4px 0 var(--shadow)}
+.btn.plain{background:var(--card);color:var(--ink)}
+main{padding:48px 0 56px;border-bottom:3px solid var(--line)}
+main h1{font-size:clamp(40px,6vw,72px);font-weight:700;text-transform:uppercase;margin:6px 0 10px}
+main .sub{max-width:44em;margin:0 0 30px}
+.log{background:var(--card);border:2px solid var(--line);box-shadow:6px 6px 0 var(--shadow)}
+.entry{display:grid;grid-template-columns:150px 1fr;gap:20px;padding:18px 20px;border-bottom:2px solid var(--line);align-items:baseline}
+.entry:last-child{border-bottom:0}
+.stamp{display:inline-block;border:2px solid var(--accent-dark);color:var(--accent-dark);padding:2px 8px;font-size:12px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;transform:rotate(-2deg);white-space:nowrap}
+.entry h2{font-size:24px;text-transform:uppercase;margin:0 0 6px}
+.entry p{margin:0 0 6px;font-size:14px}
+.entry p:last-child{margin-bottom:0}
+footer.site{padding:28px 0 40px}
+footer.site .wrap{display:flex;flex-wrap:wrap;gap:16px;align-items:center;justify-content:space-between}
+footer.site a{color:var(--ink)}
+@media (max-width:860px){.entry{grid-template-columns:1fr;gap:8px}nav.main{margin-left:0;width:100%;justify-content:flex-start}nav.main .btn{width:auto}main{padding:36px 0 40px}}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site">
+  <div class="wrap">
+    <a class="wordmark" href="/">TORQUE<span>BENCH</span></a>
+    <nav class="main" aria-label="Main">
+      <a href="/#product">Product</a>
+      <a href="/#demo">Demo</a>
+      <a href="/#pilot">Pilot</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/updates/">Updates</a>
+      <a class="btn plain" href="https://torquebench.app/">Shop login</a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <div class="wrap">
+    <span class="k">Release notes</span>
+    <h1>Updates</h1>
+    <p class="sub">What has changed in TorqueBench, newest first. Only changes a shop can see or use are listed here.</p>
+    <!-- To add an entry: copy one <article class="entry"> block below, paste it at the top of this list, and edit the date, title and text. -->
+    <div class="log">
+      <article class="entry">
+        <div><span class="stamp">Oct 4, 2026</span></div>
+        <div>
+          <h2>Forgot password by email</h2>
+          <p>The sign-in page now has a "Forgot your password?" link. Enter your email and, if it matches an account, we send a reset link. The link works once and expires after 30 minutes.</p>
+          <p>The page gives the same answer whether or not the email has an account.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <div><span class="stamp">Oct 4, 2026</span></div>
+        <div>
+          <h2>Setup links by email</h2>
+          <p>New staff logins can now get their setup link by email. They open it once to choose their own password.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <div><span class="stamp">Oct 3, 2026</span></div>
+        <div>
+          <h2>Import customers and parts yourself</h2>
+          <p>Under Admin, Import data, you can upload a CSV file or paste rows for customers or parts. You see a preview before anything is saved. Bad rows are listed and skipped, and existing records are never overwritten.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <div><span class="stamp">Oct 3, 2026</span></div>
+        <div>
+          <h2>Labor rate, address and phone in shop settings</h2>
+          <p>Shop settings now hold a default labor rate, your shop address and your phone number. Printed estimates and invoices show the address and phone.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <div><span class="stamp">Oct 3, 2026</span></div>
+        <div>
+          <h2>Owner setup links</h2>
+          <p>New owners now get a single-use setup link, valid for seven days, to choose their own password.</p>
+        </div>
+      </article>
+      <article class="entry">
+        <div><span class="stamp">Oct 2, 2026</span></div>
+        <div>
+          <h2>Change your password</h2>
+          <p>Every user can now change their own password. A login that was given a temporary password is asked to change it at first sign-in.</p>
+        </div>
+      </article>
+    </div>
+  </div>
+</main>
+<footer class="site">
+  <div class="wrap">
+    <a class="wordmark" href="/">TORQUE<span>BENCH</span></a>
+    <nav aria-label="Footer">
+      <a href="mailto:hello@gettorquebench.com">hello@gettorquebench.com</a> ·
+      <a href="/updates/">Updates</a> ·
+      <a href="https://torquebench.app/">Shop login</a> ·
+      <a href="/#demo">Demo</a>
+    </nav>
+  </div>
+</footer>
+</body>
+</html>
